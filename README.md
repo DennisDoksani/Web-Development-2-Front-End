@@ -2,19 +2,11 @@
 This repository serves as a frontend in Vue for the Web Development 2 assignment.
 
 ## Local Usage
+To run and build the container run the following:
 
 ```sh
-npm install
+docker-compose up --build
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+### Next step
+When the container is build and running (check on docker desktop) start the back-end as well
